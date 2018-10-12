@@ -4,7 +4,7 @@ class Animal:
         self._name = name
         self.weight = weight
         self.sound = sound
-        
+
     def set_name (self, name):
         self.name = name
 
