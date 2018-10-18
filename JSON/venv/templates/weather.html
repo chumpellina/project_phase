@@ -5,7 +5,20 @@
     <title>Weather</title>
 </head>
 <body>
-<div> {{temp}} </div>
+
+<div>
+    {{temp}}
+    {%if temperature < 10 %}
+    <img src="https://techflourish.com/images/clipart-of-snowflake-18.png"/>
+    {%else%}
+    <img src="https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Sun-and-Moon-PNG/Transparent_Cartoon_Sun_PNG_Clipart_Picture.png?m=1507172110"/>
+    {%endif%}
+
+</div>
+<div> {{pressure}} </div>
+<div> {{hum}} </div>
+<div> {{temp_min}} </div>
+<div> {{temp_max}} </div>
 
 </body>
 </html>
