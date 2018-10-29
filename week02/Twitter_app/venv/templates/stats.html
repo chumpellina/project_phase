@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Stats</title>
+</head>
+<body>
+<h1> The last 10 tweets of {{account}} </h1>
+<ul>
+    {% for item in tweets %}
+    <li> {{item}}</li>
+    {% endfor %}
+</ul>
+
+<h1> Some interesting data about the last 10 tweets of {{account}} </h1>
+
+<table BORDER=2 FRAME=VOID RULES=all border-collapse=collapse; >
+
+    <thead border-bottom= 1px solid #000 >
+        <tr>
+            <th> Tweet</th>
+            <th> id</th>
+            <th> length</th>
+            <th> date</th>
+            <th> source</th>
+            <th> likes</th>
+            <th> retweet</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+    {% for item in tweets %}
+    <tr>
+
+        <td> {{df["Tweets"]}} </td>
+        <td> {{df["id"]}}</td>
+        <td> {{df["length"]}}</td>
+        <td> {{df["date"]}}</td>
+        <td> {{df["source"]}}</td>
+        <td> {{df["likes"]}}</td>
+        <td> {{df["retweet"]}}</td>
+
+    </tr>
+    {% endfor %}
+
+    </tbody>
+</table>
+
+
+</body>
+</html>

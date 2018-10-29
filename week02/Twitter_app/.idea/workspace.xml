@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468481c3-c8cc-477d-bf3e-93bb92c69563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Wiki/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Wiki/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +14,14 @@
     <session id="-1693593635">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.144" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.66" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,14 +42,14 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="html" value="479" />
-          <entry key="py" value="5078" />
+          <entry key="py" value="5086" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="479" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="5078" />
+          <entry key="Python" value="5086" />
         </counts>
       </usages-collector>
     </session>
@@ -59,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Twitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="-125">
               <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -76,24 +76,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/Twitter_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="213">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
-                <marker date="1540735049012" expanded="true" signature="455:1113" ph="..." />
+                <marker date="1540809896057" expanded="true" signature="455:1113" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/templates/stats.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="-47">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -102,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/venv/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="7" selection-end-line="13" selection-end-column="7" />
+              <caret line="13" column="7" selection-start-line="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/venv/main.html" />
         <option value="$PROJECT_DIR$/venv/templates/main.html" />
         <option value="$PROJECT_DIR$/venv/Twitter.py" />
-        <option value="$PROJECT_DIR$/venv/Twitter_app.py" />
         <option value="$PROJECT_DIR$/venv/templates/stats.html" />
+        <option value="$PROJECT_DIR$/venv/Twitter_app.py" />
       </list>
     </option>
   </component>
@@ -399,9 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="28" column="69" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,13 +412,13 @@
     <entry file="file://$PROJECT_DIR$/venv/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="7" selection-end-line="13" selection-end-column="7" />
+          <caret line="13" column="7" selection-start-line="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Twitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="-125">
           <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="19" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -437,21 +434,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Twitter_app.py">
+    <entry file="file://$PROJECT_DIR$/venv/templates/stats.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-            <marker date="1540735049012" expanded="true" signature="455:1113" ph="..." />
-          </folding>
+        <state relative-caret-position="-47">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/templates/stats.html">
+    <entry file="file://$PROJECT_DIR$/venv/Twitter_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="213">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <marker date="1540809896057" expanded="true" signature="455:1113" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

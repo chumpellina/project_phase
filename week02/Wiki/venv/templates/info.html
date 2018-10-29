@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info page</title>
+</head>
+<body>
+<h2> The brief description of {{target}}: </h2>
+<p> {{description}} </p>
+<h2> Is {{target}} related to Chess Records (and so, the connecting links): </h2>
+<p> {{related}} </p>
+<ul>
+    {% for item in my_page %}
+    <li> {{item}}</li>
+    {% endfor %}
+</ul>
+
+<h2> Links related to {{target}}: </h2>
+<ul>
+    {% for item in links %}
+    <li> {{item}}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
