@@ -1,7 +1,6 @@
-from scrapy.selector import Selector
-from scrapy import Spider
+from scrapy.spiders import Spider
 from wikiSpider.items import Article
-from scrapy.cmdline import execute
+
 
 class ArticleSpider(Spider):
     name = "article"
@@ -11,10 +10,9 @@ class ArticleSpider(Spider):
     def parse (self, response):
         item = Article()
         title = response.xpath("//h1/text()")[0].extract()
+        item.name = response.xpath()
         print ("title is: " + title)
         item["title"] = title
         return item
 
 
-
-execute("scrapy crawl article")
