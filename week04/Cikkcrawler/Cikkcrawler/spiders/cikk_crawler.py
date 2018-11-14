@@ -3,6 +3,7 @@ from scrapy.linkextractors import LinkExtractor
 from Cikkcrawler.items import CikkcrawlerItem
 from scrapy.selector import Selector
 
+
 class CikkScraperSpider (CrawlSpider):
     name = "article"
     allowed_domains = ["888.hu"]
@@ -11,19 +12,33 @@ class CikkScraperSpider (CrawlSpider):
     rules = [
         Rule(
             LinkExtractor(
-                allow=[".*"]),
+                allow=["oraatall", "idoszamitas", "szenved", "oraval", "idozona"]),
             callback="parse_news",
             follow=False)
     ]
 
-
     def parse_news(self, response):
         sel = Selector(response)
         item = CikkcrawlerItem()
-        item["title"] = sel.xpath('//*[@id="content"]/div[@class = "main-content"]/div/div/div/div/a/h2/text()', id_="content").extract()
-        item["lead"] = sel.xpath('//*[@id="content"]/div[@class ="main-content"]/div/div/div/div/p/text()', id_="content").extract()
-        #item ["urls"] = sel.xpath("//*[@id='content']/div/div/div/div/div/a/text()").extract()
-        #print (sel.xpath("//*[@id='content']/div/div/div/div/div/a/text()").extract())
+        item["source"] = "888.hu"
+        item["title"] = sel.xpath("//*[@id='cikkholder']/h1[1]/text()").extract()
+        item["lead"] = sel.xpath("//*[@id='cikkholder']/div[3]/span/text()").extract()
+        item ["url"] = response.url
+        item["date"]= sel.xpath("//*[@id='cikkholder']/p/text()").extract()
+        raw_text = sel.xpath("//*[@id='st']/p/text()").extract()
+        item["text"] = " ".join(raw_text)
+        item["comments"] = "From Facebook API"
+        item["likes"] = "From Facebook API"
+        item["shares"] = "From Facebook API"
+
+        #yield item
+
+        print (" ".join(raw_text))
+
+
+
+
+
 
 
 

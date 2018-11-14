@@ -10,10 +10,13 @@ import scrapy
 
 class CikkcrawlerItem(scrapy.Item):
 
+    url = scrapy.Field()
     source = scrapy.Field()
     title = scrapy.Field()
     lead = scrapy.Field()
-    urls = scrapy.Field()
     date = scrapy.Field()
     text = scrapy.Field()
-    tags = scrapy.Field()
+    comments = scrapy.Field()
+    likes = scrapy.Field()
+    shares = scrapy.Field()
+
