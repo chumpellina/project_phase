@@ -16,4 +16,8 @@ class SorItem(scrapy.Item):
     vol = scrapy.Field()
     price = scrapy.Field()
     description = scrapy.Field()
+    ingredients = scrapy.Field()
+    bitterness = scrapy.Field()
+    temperature = scrapy.Field()
+    color = scrapy.Field()
 

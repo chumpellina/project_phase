@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'sor.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'sor (+http://www.yourdomain.com)'
+USER_AGENT = 'my-cool-project (http://example.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
