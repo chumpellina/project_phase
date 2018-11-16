@@ -8,7 +8,7 @@
 import scrapy
 
 
-class SorItem(scrapy.Item):
+class SortwoItem(scrapy.Item):
     brewery = scrapy.Field()
     beer_name = scrapy.Field()
     beer_type = scrapy.Field()
@@ -21,4 +21,3 @@ class SorItem(scrapy.Item):
     temperature = scrapy.Field()
     color = scrapy.Field()
     url = scrapy.Field()
-

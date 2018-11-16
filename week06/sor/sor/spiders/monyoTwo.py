@@ -6,14 +6,14 @@ from sor.items import SorItem
 
 
 class SorSpider (CrawlSpider):
-    name = "monyo"
+    name = "monyoTwo"
     allowed_domains = ["monyobrewing.com"]
     start_urls = ['http://monyobrewing.com/allando-sorok/', 'http://monyobrewing.com/szezonalis-sorok/']
 
     rules = [
         Rule(
             LinkExtractor(
-                allow=["monyobrewing.com\/.*-brewing-co\/"]),
+                allow=[r"monyobrewing.com\/.*-brewing-co\/"]),
                 callback="parseTwo",
             follow=False),
 

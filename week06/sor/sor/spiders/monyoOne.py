@@ -13,7 +13,7 @@ class SorSpider (CrawlSpider):
     rules = [
         Rule(
             LinkExtractor(
-                allow=["monyobrewing.com\/.*-brewing-co\/"]),
+                allow=[r"monyobrewing.com\/.*-brewing-co\/"]),
                 callback="parseOne",
             follow=False),
 
