@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="44e89537-3752-47b2-be44-4911b4401a08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../week03/CrawlSpider/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week03/crawler/venv/Scrapy_app.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/spiders/monyoOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/spiders/monyoOne.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/spiders/monyoTwo.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/spiders/monyoTwo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/spiders/zirc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sor/spiders/monyoOne.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sor/spiders/monyoTwo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sortwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sortwo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sortwo/sortwo/spiders/zirciapatsag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sortwo/sortwo/spiders/zirciapatsag.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +20,13 @@
     <session id="1318434261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.168" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,20 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sor/spiders/foti_fozde.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="255">
               <caret line="19" selection-end-line="49" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sor/spiders/monyoOne.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -80,20 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sor/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1008">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sor/spiders/monyoTwo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="18" column="120" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -181,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sortwo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -241,7 +219,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1532738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08407738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -252,7 +230,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38625205" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3797054" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,48 +266,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="10" column="76" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sor/spiders/monyoTwo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sor/spiders/proba.py" />
+    <entry file="file://$PROJECT_DIR$/sor/spiders/zirc.py" />
+    <entry file="file://$PROJECT_DIR$/sor/spiders/monyoOne.py" />
+    <entry file="file://$PROJECT_DIR$/sor/spiders/monyoTwo.py" />
     <entry file="file://$PROJECT_DIR$/sor/spiders/foti_fozde.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="255">
           <caret line="19" selection-end-line="49" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sor/spiders/monyoOne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sor/spiders/proba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -341,20 +290,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sor/spiders/zirc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="23" column="40" selection-end-line="42" />
-          <folding>
-            <element signature="e#3#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="34">
+          <caret line="18" column="120" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="120" />
         </state>
       </provider>
     </entry>

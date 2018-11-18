@@ -25,11 +25,14 @@ class ZirciSorSpider (CrawlSpider):
 
         item["url"] = response.request.url
 
-        item["beer_name"] = sel.xpath("//h2/text()").extract()
+        raw_name = sel.xpath("//h2/text()").extract()
+        item["beer_name"] = raw_name[1:]
 
-        item["beer_type"]= "NaN"
+        raw_type = sel.xpath("//div/p[1]/strong/text()").extract()
+        item["beer_type"]= raw_type [1:-1]
 
-        item["description"] = sel.xpath("//p[2]/text()").extract()
+        raw_des = sel.xpath("//p[2]/text()").extract()
+        item["description"] = raw_des [:-2]
 
         item["alcohol_vol"] = sel.xpath("//em/strong/span/text()").extract()
 
