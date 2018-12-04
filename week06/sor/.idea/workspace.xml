@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e89537-3752-47b2-be44-4911b4401a08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../week03/CrawlSpider/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week03/crawler/venv/Scrapy_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week03/nltk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week03/nltk/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/spiders/monyoOne.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/spiders/monyoTwo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sor/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sor/spiders/foti_fozde.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/spiders/foti_fozde.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorthree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorthree/sorthree/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/sorthree/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorthree/sorthree/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/sorthree/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sorthree/sorthree/spiders/monyoOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/sorthree/spiders/monyoOne.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sortwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sortwo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sortwo/sortwo/spiders/zirciapatsag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sortwo/sortwo/spiders/zirciapatsag.py" afterDir="false" />
     </list>
@@ -20,35 +24,37 @@
     <session id="1318434261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.168" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="2822" />
+          <entry key="py" value="5980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="2822" />
+          <entry key="Python" value="5980" />
         </counts>
       </usages-collector>
     </session>
@@ -58,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sor/spiders/foti_fozde.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" selection-end-line="49" />
+            <state relative-caret-position="765">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -67,11 +73,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sor/spiders/szent_andras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sor/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="18" column="120" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="120" />
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fetch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="195" selection-start-line="195" selection-end-line="195" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fetch_color.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="25" selection-start-line="25" selection-end-line="42" />
+              <folding>
+                <element signature="e#47#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sor/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -79,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sor/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="22" column="24" selection-start-line="11" selection-start-column="4" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -107,22 +155,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sor/spiders/foti_fozde.py" />
         <option value="$PROJECT_DIR$/sor/spiders/szent_andras.py" />
         <option value="$PROJECT_DIR$/sor/spiders/hopfanatic.py" />
         <option value="$PROJECT_DIR$/sor/spiders/monyo.py" />
         <option value="$PROJECT_DIR$/sor/spiders/monyoOne.py" />
         <option value="$PROJECT_DIR$/sor/spiders/monyoTwo.py" />
         <option value="$PROJECT_DIR$/sor/spiders/proba.py" />
-        <option value="$PROJECT_DIR$/sor/settings.py" />
         <option value="$PROJECT_DIR$/sor/items.py" />
         <option value="$PROJECT_DIR$/sor/spiders/zirc.py" />
+        <option value="$PROJECT_DIR$/sor/pipelines.py" />
+        <option value="$PROJECT_DIR$/sor/spiders/foti_fozde.py" />
+        <option value="$PROJECT_DIR$/sor/settings.py" />
+        <option value="$PROJECT_DIR$/fetch_color.py" />
+        <option value="$PROJECT_DIR$/fetch.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="511" />
-    <option name="width" value="776" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="696" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,25 +191,15 @@
               <item name="sor" type="b2602c69:ProjectViewProjectNode" />
               <item name="sor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sor" type="462c0819:PsiDirectoryNode" />
-              <item name="sor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sor" type="462c0819:PsiDirectoryNode" />
-              <item name="sor" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sorthree" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -174,7 +214,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.fetch">
+    <configuration name="fetch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fetch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fetch_color" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fetch_color.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="zirc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,8 +278,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.zirc" />
+      <item itemvalue="Python.fetch" />
+      <item itemvalue="Python.fetch_color" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fetch" />
+        <item itemvalue="Python.fetch_color" />
         <item itemvalue="Python.zirc" />
       </list>
     </recent_temporary>
@@ -216,21 +305,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08407738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18377976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.60229135" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39443535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3797054" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32242227" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -238,18 +327,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1532738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18377976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11620294" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.71031094" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32242227" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -262,38 +351,65 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sor/spiders/monyo.py" />
-    <entry file="file://$PROJECT_DIR$/sor/spiders/szent_andras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sor/spiders/proba.py" />
     <entry file="file://$PROJECT_DIR$/sor/spiders/zirc.py" />
     <entry file="file://$PROJECT_DIR$/sor/spiders/monyoOne.py" />
     <entry file="file://$PROJECT_DIR$/sor/spiders/monyoTwo.py" />
     <entry file="file://$PROJECT_DIR$/sor/spiders/foti_fozde.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-end-line="49" />
+        <state relative-caret-position="765">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sor/items.py">
+    <entry file="file://$PROJECT_DIR$/sor/spiders/szent_andras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="24" selection-start-line="11" selection-start-column="4" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="18" column="120" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="120" />
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sor/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sor/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_color.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="25" selection-start-line="25" selection-end-line="42" />
+          <folding>
+            <element signature="e#47#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

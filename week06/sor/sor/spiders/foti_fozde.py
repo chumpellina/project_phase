@@ -35,8 +35,20 @@ class FotiSorSpider (CrawlSpider):
 
         item["description"] = sel.xpath(("//div [@class='description']/div [@style='text-align:justify;']//p/text()")).extract()
 
-
-        yield item
+        for item['beer_name'],  item['alcohol_vol'], item['description'], item['price'], item['vol'] in zip(item['beer_name'],
+                                                                                                  item['alcohol_vol'],
+                                                                                                  item['description'],
+                                                                                                  item['price'],
+                                                                                                  item['vol']):
+            yield {
+                'brewery': item['brewery'],
+                'beer_name': item['beer_name'],
+                'beer_type': item['beer_type'],
+                'alcohol_vol': item['alcohol_vol'],
+                'description': item['description'],
+                'price': item['price'],
+                'vol': item['vol']
+            }
 
 
 

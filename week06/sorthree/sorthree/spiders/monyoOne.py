@@ -25,7 +25,7 @@ class SorSpider (CrawlSpider):
         item = SorthreeItem()
         item["brewery"] = "Monyo Budapest"
 
-        nevekOne = ["american beauty", "dead rabbit", "flying rabbit", "funky fritz", "invisible bikini", "schatzi", "summer syndrome", "bipolar bear", "black mamba", "anubis"]
+       # nevekOne = ["american beauty", "dead rabbit", "flying rabbit", "funky fritz", "invisible bikini", "schatzi", "summer syndrome", "bipolar bear", "black mamba", "anubis"]
 
         raw_name = sel.xpath("//h1 [@class='heading__secondary'][1]/text()").extract()
         item["beer_name"] = "".join(raw_name)
