@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 import numpy as np
 import pandas as pd
+from pandas import ExcelWriter
 
 client = MongoClient(
     'ec2-35-158-191-40.eu-central-1.compute.amazonaws.com', 27017)
@@ -191,8 +192,9 @@ df["color"].convert_objects(convert_numeric=True)
 
 df.loc[df['brewery'] == 'Monyo Budapest', ['color']] = df["color"]*2
 
+writer = pd.ExcelWriter('tiszta_sor_adatok.xlsx')
+df.to_excel(writer, sheet_name='Sheet1')
+writer.save()
 
-#print(df["color"].describe(), df["fruity"].describe(), df["bitterness"].describe(), df["alcohol_vol"].describe(), df["beer_type_new"].describe())
-print (df["color"])
 
 

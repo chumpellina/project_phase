@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e89537-3752-47b2-be44-4911b4401a08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../week03/nltk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week03/nltk/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sor/spiders/foti_fozde.py" beforeDir="false" afterPath="$PROJECT_DIR$/sor/spiders/foti_fozde.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorthree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorthree/sorthree/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/sorthree/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorthree/sorthree/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/sorthree/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sorthree/sorthree/spiders/monyoOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sorthree/sorthree/spiders/monyoOne.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sortwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sortwo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sortwo/sortwo/spiders/zirciapatsag.py" beforeDir="false" afterPath="$PROJECT_DIR$/../sortwo/sortwo/spiders/zirciapatsag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/venv/machineLearning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../analysis/venv/machineLearning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/venv/mysuperdata.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/venv/newtable.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../analysis/venv/newtable.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch.py" beforeDir="false" afterPath="$PROJECT_DIR$/fetch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +19,7 @@
     <session id="1318434261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.109" value="1" />
           <entry key="project.open.time.168" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -48,13 +43,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="5980" />
+          <entry key="py" value="6089" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="5980" />
+          <entry key="Python" value="6089" />
         </counts>
       </usages-collector>
     </session>
@@ -94,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fetch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="195" selection-start-line="195" selection-end-line="195" />
+            <state relative-caret-position="97">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -171,9 +166,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="696" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="694" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,7 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sorthree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../analysis" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -305,7 +300,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18377976" />
@@ -313,7 +308,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39443535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39443535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fetch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        <state relative-caret-position="97">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
